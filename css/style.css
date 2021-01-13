@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e35b5b;
+    font-family: Arial, Verdana;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+}
+div {
+    width: 724px;
+    margin: 43px auto 0;
+    padding: 0 20px;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    /* text-shadow отвечает за тень,
+    1 параметр это отступ по оси х, в ФШ показывается в уголе,
+    2 параметр отвечает за отступ по оси Y(cмещение в ФШ),
+     3 параметр отвечает за размытие тени (размер отвечает за размытие в ФШ),
+     4 параметр - это цвет, можно выбрать из hex или обычный цвет, либо
+     rgba(первые три идут цвета ргба, после них идет прозрачность (opacity, значение от 0 до 1)*/
+    text-shadow:0 1px 0 rgba(0,0,0,0.3); ;
+}
+h1+p{
+    font-size: 24px;
+    line-height: 30px;
+    color: #a42727;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.35);
+    margin-bottom: 47px;
+}
+.last-p{
+    font-style: italic;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffbfbf;
+    text-align: right;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+p{
+    margin-bottom: 30px;
+}
